@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 922634095,
+      "message": {
+        "message_id": 169,
+        "from": {
+          "id": 414698441,
+          "is_bot": false,
+          "first_name": "������",
+          "username": "Muhametdinova_G",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 414698441,
+          "first_name": "������",
+          "username": "Muhametdinova_G",
+          "type": "private"
+        },
+        "date": 1512985239,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 922634096,
+      "message": {
+        "message_id": 170,
+        "from": {
+          "id": 414698441,
+          "is_bot": false,
+          "first_name": "������",
+          "username": "Muhametdinova_G",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 414698441,
+          "first_name": "������",
+          "username": "Muhametdinova_G",
+          "type": "private"
+        },
+        "date": 1512985444,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 922634097,
+      "message": {
+        "message_id": 171,
+        "from": {
+          "id": 414698441,
+          "is_bot": false,
+          "first_name": "������",
+          "username": "Muhametdinova_G",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 414698441,
+          "first_name": "������",
+          "username": "Muhametdinova_G",
+          "type": "private"
+        },
+        "date": 1512985568,
+        "text": "������"
+      }
+    }
+  ]
+}
