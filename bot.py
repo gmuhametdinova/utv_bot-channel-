@@ -45,6 +45,7 @@ try:
 except NameError:
     images = news
 
+
 def main():
     markup = types.InlineKeyboardMarkup()
     my_btn = types.InlineKeyboardButton(text='Читать новость', url=news)
@@ -53,7 +54,7 @@ def main():
         (soup.find('div', class_='item-title text-short').get_text()) + '.',
         (soup.find('div', class_='item-desc text-short').get_text())
     ]
-    title = (soup.find('div', class_='item-title text-short').get_text())
+    title = news
     conn = sqlite3.connect('name.db')
     cursor = conn.cursor()
     channel_id = -1001268749913
